@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computação em Nuvem</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Banner com vídeo -->
+    <div class="banner" id="home">
+        <video src="./video/v.mp4.mp4"
+        autoplay muted loop></video>
+        <div class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#iaas">IaaS</a></li>
+                <li><a href="#saas">SaaS</a></li>
+                <li><a href="#paas">PaaS</a></li>
+                <li><a href="#images">Aplicativos</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1 class="hidden">COMPUTAÇÃO EM NUVEM</h1>
+        </div>
+    </div>
+
+    <!-- Seção "O que é" -->
+    <section id="sobre" class="section hidden">
+        <h2>Sobre</h2>
+        <div class="container">
+            <div class="coluna">
+                <p>A computação em nuvem é um modelo de entrega de recursos de TI, como armazenamento, processamento e aplicativos,
+                    por meio da internet. Em vez de depender de um computador ou servidor local, os usuários podem acessar esses recursos de qualquer lugar, utilizando apenas uma conexão com a internet.</p>
+            </div>
+            <div class="coluna">
+                <p>Essa tecnologia permite maior flexibilidade, escalabilidade e redução de custos, sendo amplamente utilizada para armazenamento de dados, hospedagem de sites e execução de aplicativos complexos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção "IaaS" -->
+    <section id="iaas" class="section hidden">
+        <h2>IaaS</h2>
+        <div class="container">
+            <div class="coluna">
+                <p>IaaS, ou Infraestrutura como Serviço, é um modelo de computação em nuvem que fornece recursos de infraestrutura, como servidores, redes e armazenamento, de forma virtual.</p>
+            </div>
+            <div class="coluna">
+                <p>É ideal para empresas que desejam flexibilidade e escalabilidade sem grandes investimentos em hardware físico. Exemplos de serviços IaaS incluem AWS e Microsoft Azure.</p>
+            </div>
+            <button class="info-btn" onclick="window.location.href='iaas-info.html'">+ informações</button>
+        </div>
+    </section>
+
+    <!-- Seção "SaaS" -->
+    <section id="saas" class="section hidden">
+        <h2>SaaS</h2>
+        <div class="container">
+            <div class="coluna">
+                <p>SaaS, ou Software como Serviço, é um modelo em que softwares são fornecidos pela internet. Os usuários acessam os aplicativos diretamente, sem a necessidade de instalação ou manutenção local.</p>
+            </div>
+            <div class="coluna">
+                <p>SaaS é ideal para empresas que buscam conveniência e escalabilidade, permitindo acessar dados de qualquer lugar. Exemplos incluem Gmail e Microsoft 365.</p>
+            </div>
+            <button class="info-btn" onclick="window.location.href='saas-info.html'">+ informações</button>
+        </div>
+    </section>
+
+    <!-- Seção "PaaS" -->
+    <section id="paas" class="section hidden">
+        <h2>PaaS</h2>
+        <div class="container">
+            <div class="coluna">
+                <p>PaaS, ou Plataforma como Serviço, fornece um ambiente completo para o desenvolvimento, teste e implantação de aplicativos, eliminando a necessidade de gerenciar infraestrutura subjacente.</p>
+            </div>
+            <div class="coluna">
+                <p>Essa solução reduz custos e complexidade, sendo ideal para equipes que desejam focar no desenvolvimento de software. Exemplos incluem Google App Engine e Heroku.</p>
+            </div>
+            <button class="info-btn" onclick="window.location.href='paas-info.html'">+ informações</button>
+        </div>
+    </section>
+
+    <!-- Última seção com imagens -->
+    <section id="images" class="section hidden">
+        <h2>Aplicativos Referencia </h2>
+        <div class="image-links">
+            <a href="img1.html"><img src="img1.jpg" alt="Imagem 1"></a>
+            <a href="img2.html"><img src="img2.jpg" alt="Imagem 2"></a>
+            <a href="img3.html"><img src="img3.jpg" alt="Imagem 3"></a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
